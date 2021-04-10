@@ -1,4 +1,4 @@
-body{background-color:tan;
+body{background-color:black;
      color: black;
      font: arial;
 }
@@ -14,10 +14,7 @@ h1{color:grey;
     border-radius: 25px;
     line-height: 50px;
     text-align: center;
-}
-footer{
-    color:green;
-    text-align: center;
+    margin: auto;
 }
 
 
