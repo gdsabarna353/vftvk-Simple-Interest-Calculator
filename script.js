@@ -4,7 +4,7 @@ function compute()
    var Rate = document.getElementById("rate");
    var Years = document.getElementById("years");
    if(Amount.value<=0){
-       alert("please enter the positive value of Amount");
+       alert("Enter a positive number");
        Amount.focus();
        return false;
    }
