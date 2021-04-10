@@ -22,5 +22,4 @@ function compute()
 function slider_reader(val){
     document.getElementById('rate').value=val;
 }
-
         
