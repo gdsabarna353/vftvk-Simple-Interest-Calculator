@@ -14,7 +14,7 @@ function compute()
     return false;
 }
 
-   var final = parseFloat(Amount.value) * parseFloat(Rate.value) * parseInt(Years.value) + parseFloat(Amount.value);
+   var final = parseFloat(Amount.value) * parseFloat(Rate.value) * parseInt(Years.value) /100;
    Years = 2020+parseInt(Years.value);
    document.getElementById("result").innerHTML="If you deposit Rs."+"<mark>"+Amount.value+"</mark>"+"<br>"+"at an interest rate of "+"<mark>"+Rate.value+"%."+"</mark>"+"<br>"+"You will receive an amount of Rs."+"<mark>"+final+"</mark>"+","+"<br>"+"in the year "+"<mark>"+Years+"</mark>"+"."
 }
